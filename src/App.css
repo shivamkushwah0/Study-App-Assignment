@@ -1,0 +1,529 @@
+/* body  overall CSS*/
+
+body{
+    background-color: #F2F2F2;
+}
+
+
+/* For the searchbar */
+
+.SearchBar  {
+    width : 836px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: #E2E2E2 ;
+    border-radius:10px ;
+    display:flex;
+    flex-direction: row;
+    height:36px;
+    padding-left: 5px;
+    box-sizing:border-box;
+    margin : 40px 10px 40px 20px;
+    width : 72%;
+    justify-self: center;
+    align-self:center
+    
+}
+Input {    
+    background: #E2E2E2 !important;
+    border-color: transparent !important;
+    height:36px !important;
+    border-radius:12px   !important;
+}
+
+.SearchBar > div {
+    margin-left : 3px;
+   align-self: center;
+}
+.SearchBar > div.input
+{
+    align-self:center;
+    flex : 1
+} 
+
+/* Searchbar Ended */
+
+/* For SideBar */
+.sideBar {
+    background-color: #FF6C40;
+    color: #FFFFFF;
+    height : 100%;   
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:200px
+
+}
+.sideBarElements {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    color:white !important;
+    
+    
+    
+}
+.info-tabs {
+    text-align:justify;
+    height: 82px;
+    padding : 20px; 
+    align-self: center;    
+}
+.info-tabs.active
+{
+    background: #FFC480;
+}
+
+
+/* SideBar styling done */
+
+/* salesReport styling starting */
+
+.SalesReport {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    height:495px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
+    width:fit-content;
+}
+h4.Heading {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #593636;
+    margin:21px;
+}
+.graph-extra-info {
+    background-color: #FF6C40;
+    border-radius: 0px 15px 15px 0px;
+    height:495px; 
+    padding:21px;   
+}
+
+.revenue-box {
+    background: #FFE700;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding:21px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #593636;
+
+}
+.date-box {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin : 21px 76px 21px 21px
+}
+.quotation-box {
+    background: #1FFD77;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding:21px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #593636;
+    margin-top: 21px;
+}
+
+/* NotePad Styling starts here */
+
+.notePad {
+    background-color: white ;
+    border-radius: 15px;
+    position:relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    padding-bottom : 20px; 
+    
+}
+.note-style {
+    background :white ;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom:10px;
+    margin-left:23px;   
+}
+
+.note-pad-heading {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #593636;
+    margin : 23px;
+    font-weight: bolder;
+}
+
+.notepad-content {
+    height : 240px ;
+    overflow-y:scroll 
+}
+.add-button {
+    background-color:#FF6C40;
+    border-radius : 100px;
+    position : absolute ;   
+    width: 40px;
+    height: 40px;
+    right: 30px;
+    bottom: 30px;
+    padding: 2px
+}
+
+/* Inbox Styling */
+
+.Inbox {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+    border-radius: 15px;
+    padding : 10px 5px 10px 5px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 48px;
+    color: #593636;
+    margin:10px;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+/* Inbox Styling Done */
+
+/* Graph Styling */
+
+.Graph {
+    width:auto;
+    height : auto ;
+    border-radius : 20px ;
+    padding : 12px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+    margin : 10px;
+    background-color: white;
+    margin-top:20px
+}
+
+/* Graph Styling Done */
+
+/* Monthly Status Styling */
+
+.status {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+    background-color: white;
+    border-radius : 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding : 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width:auto;
+}
+
+.growth {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 28px;
+    color: #0F26F2;
+    margin-right:28px; 
+}
+
+/* Monthly status Styling Done */
+
+/* Notification and Event Bar Styling Starts */
+
+.NotificationBar {
+    background-color: white;
+    border-radius: 15px;
+    padding :0px 13px 13px 13px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
+    position:absolute;
+    top:115px;
+    width : 90%;
+    height:50%;
+    overflow-y:hide;
+    padding-bottom: 30px;
+    
+
+}
+
+
+a.nav-link {
+    color : black !important;
+    font-family:SF Pro Display !important;
+    cursor: pointer !important;
+    border-radius: 10px 10px 0px 0px !important;
+    background-color:#f7f2f2 !important;
+    border-width:0px !important ;
+    opacity:0.5  !important;
+}
+
+a.nav-link.active {
+    opacity:1  !important;
+    background-color: transparent !important;
+    /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.10) inset !important; */
+}
+
+.TabContent {
+    margin : 8px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10) inset;
+    border-radius:15px;
+    padding:5px;
+    height:90%;
+    overflow-y:scroll;
+    overflow-x:hide;
+    
+}
+
+::-webkit-scrollbar {
+    width : 3px ;
+    border-radius: 3px;
+}
+.single-data-loader {
+display : flex;
+flex-direction : row;
+margin:10px;
+
+}
+
+.image-loader {
+    width: fit-content;
+    align-self: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-left : 5px;
+}
+
+.data-loader {
+flex:1;
+padding : 2px;
+align-self: center;
+
+}
+
+.note-title {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 18px;
+    margin:0px 8px 8px 8px;
+}
+.note-body {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    margin:5px 8px 5px 8px;
+}
+.note-time {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 8px;
+    margin:5px 8px 5px 8px;
+}
+
+.view-all-tab {
+    position :relative ;
+    bottom : -3px;
+    margin: 0px auto;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 8px;
+    background: #f0eaea;
+    width: 70px;
+    text-align: center;
+    padding:5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top:5px;
+}
+
+
+/* Styling for ConversationScreen */
+
+/* PostBox Styling Start */
+
+.PostBox {
+    background: #FFFFFF;
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 15px;
+    padding: 18px;
+    margin:20px;
+}
+
+.InputArea {
+    
+    width:100%;
+    margin:10px auto;
+    background: #fdfdfd;
+    border-radius: 15px;
+}
+.InputArea > textarea {
+    background: #FAFAFA !important;
+    border-radius: 15px !important;
+
+}
+button.cancel-button {
+    background-color: transparent !important;
+    color: #EF3E36 !important;
+    border-width: 0px !important;
+    font-weight : bolder !important;
+    margin:10px;
+
+    
+   
+}
+button.attachment-button {
+    border-radius:20px !important;
+    background: #FFC480 !important;
+    border-width: 0px !important;
+    color:#FF6C40;
+    font-size:15px;
+    margin:10px;
+
+    
+}
+button.submit-button {
+    background: #FF6C40 !important;
+    border-width: 0px !important;
+    color:white;
+    font-size:15px;
+    border-radius:8px 0px 0px 8px !important;
+    margin:10px 0px 10px 10px;
+    padding: 0px 30px 0px 30px;
+}
+
+button.dropdown-button {
+    background: #FFC480 !important;
+    border-width: 0px !important;
+    color:#FF6C40;
+    font-size:15px;
+    margin:10px 0px 10px 0px;
+    border-radius :0px 8px 8px 0px ;
+    padding: 0px 10px 0px 10px;
+}
+
+/* PostBox Styling Done */
+
+/* Conversation Box Styling Starting */
+
+.conversationBox {
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+    padding: 18px;
+    margin:20px 20px 0px 20px;
+}
+
+.body-title {
+    font-weight:bolder;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;  
+    color: #000000;
+    margin:10px;
+}
+.body-date {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 18px;
+    color: #868686;
+    margin:10px;
+}
+.body-text {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin:10px;
+}
+
+.comment-box {
+    border-radius : 15px ;
+    background-color: #faf3f3;
+    margin:10px;
+    padding : 5px;
+}
+ .comment  {
+    font-weight:bolder ;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;  
+    color: #000000;
+    margin:10px;
+ }
+
+.comment-body {
+    margin:10px 10px 10px 30px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;  
+
+}
+.input-text {
+    margin:0px 20px 0px 20px;
+    background-color: #FAFAFA ;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.input-text textarea{
+    border-radius: 0px 0px 0px 15px !important;
+    padding:6px 10px !important;
+    background-color: #FAFAFA !important ;
+    
+    border-width: 0px;
+    display:inline-block;
+}
+
+.send-button {
+    text-align: center;
+    vertical-align: middle;
+    color:#733D47;
+    font-size:17px;
+    position:relative;
+    padding :8px ;
+
+}
+
+
+
